@@ -1,0 +1,7 @@
+f = open("bai_tho.txt","r",encoding="utf-8")
+a =f.read(25)
+print("nội dung 25 ký tự đầu :\n",a)
+b = f.read(35)
+print("nội dung 35 ký tự tiếp theo là:")
+c=f.read()
+print("phần còn lại :\n",c)
